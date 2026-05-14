@@ -1,0 +1,14 @@
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\CybersecurityBotGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\CybersecurityBotGUI.AssemblyInfoInputs.cache
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\CybersecurityBotGUI.AssemblyInfo.cs
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\CybersecurityBotGUI.csproj.CoreCompileInputs.cache
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\bin\Debug\net10.0-windows\CybersecurityBotGUI.exe
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\bin\Debug\net10.0-windows\CybersecurityBotGUI.deps.json
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\bin\Debug\net10.0-windows\CybersecurityBotGUI.runtimeconfig.json
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\bin\Debug\net10.0-windows\CybersecurityBotGUI.dll
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\bin\Debug\net10.0-windows\CybersecurityBotGUI.pdb
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\CybersecurityBotGUI.dll
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\refint\CybersecurityBotGUI.dll
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\CybersecurityBotGUI.pdb
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\CybersecurityBotGUI.genruntimeconfig.cache
+C:\Users\nekho\source\repos\CybersecurityBotGUI\CybersecurityBotGUI\obj\Debug\net10.0-windows\ref\CybersecurityBotGUI.dll
