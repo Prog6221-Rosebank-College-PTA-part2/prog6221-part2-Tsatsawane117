@@ -62,7 +62,3 @@ CI Workflow
 GitHub Actions automatically builds the project on every push.
 
 ![CI]()
-
-4. `Added SentimentDetector with 5 mood types and adaptive responses`
-5. `Implemented UserMemory for name recall and favourite topic tracking`
-6. `Added conversation flow, follow-up handling and error handling`
