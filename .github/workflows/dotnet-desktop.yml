@@ -10,53 +10,26 @@ jobs:
   build:
     runs-on: windows-latest
 
-    env:
-      Solution_Name: CybersecurityBotWPF.sln
-      Test_Project_Path: CybersecurityBotWPF.Tests\CybersecurityBotWPF.Tests.csproj
-      Wap_Project_Directory: CybersecurityBotWPF
-      Wap_Project_Path: CybersecurityBotWPF\CybersecurityBotWPF.csproj
-
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
 
     - name: Install .NET Core
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
 
-    - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v2
-
-    - name: Execute unit tests
-      run: dotnet test --no-build --verbosity normal
-      continue-on-error: true
-
     - name: Restore the application
-      run: msbuild $env:Solution_Name /t:Restore /p:Configuration=Release
+      run: dotnet restore CybersecurityBotWPF.csproj
 
-    - name: Decode the pfx
-      run: |
-        $pfx_cert_byte = [System.Convert]::FromBase64String("${{ secrets.Base64_Encoded_Pfx }}")
-        $certificatePath = Join-Path -Path $env:Wap_Project_Directory -ChildPath GitHubActionsWorkflow.pfx
-        [IO.File]::WriteAllBytes("$certificatePath", $pfx_cert_byte)
-      continue-on-error: true
+    - name: Build Debug
+      run: dotnet build CybersecurityBotWPF.csproj --configuration Debug --no-restore
 
-    - name: Create the app package
-      run: msbuild $env:Wap_Project_Path /p:Configuration=Release /p:UapAppxPackageBuildMode=StoreUpload /p:AppxBundle=Always /p:PackageCertificateKeyFile=GitHubActionsWorkflow.pfx /p:PackageCertificatePassword=${{ secrets.Pfx_Key }}
-      continue-on-error: true
-
-    - name: Remove the pfx
-      run: Remove-Item -path $env:Wap_Project_Directory\GitHubActionsWorkflow.pfx
-      continue-on-error: true
-
-    - name: Build the application
-      run: dotnet build CybersecurityBotWPF.csproj --configuration Release
+    - name: Build Release
+      run: dotnet build CybersecurityBotWPF.csproj --configuration Release --no-restore
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: MSIX Package
-        path: ${{ env.Wap_Project_Directory }}\AppPackages
+        name: Release Build
+        path: bin\Release\net8.0-windows\
