@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet CybersecurityBotGUI/CybersecurityBotGUI/CybersecurityBotGUI.csproj restore -p:EnableWindowsTargeting=true
+      run: dotnet restore CybersecurityBotGUI/CybersecurityBotGUI/CybersecurityBotGUI.csproj  -p:EnableWindowsTargeting=true
     - name: Build
       run: dotnet build CybersecurityBotGUI/CybersecurityBotGUI/CybersecurityBotGUI.csproj --no-restore  -p:EnableWindowsTargeting=true
   
