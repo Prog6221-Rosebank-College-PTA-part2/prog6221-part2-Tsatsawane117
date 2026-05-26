@@ -26,3 +26,5 @@ mood, and keeps the conversation feeling natural and engaging.
 
 ## Requirements
 - .NET 8.0 · Visual Studio 2022 · Windows
+
+![CI](https://github.com/Prog6221-Rosebank-College-PTA-part2/prog6221-part2-Tsatsawane117/blob/main/.github/workflows/dotnet.yml)
