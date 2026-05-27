@@ -57,7 +57,7 @@ namespace CybersecurityBotGUI.Forms
         private void InitialiseComponents()
         {
 
-            Text = "🔒 Cybersecurity Awareness Bot";
+            Text = " Cybersecurity Awareness Bot";
             Size = new Size(900, 700);
             MinimumSize = new Size(700, 550);
             BackColor = BgDark;
@@ -187,7 +187,7 @@ namespace CybersecurityBotGUI.Forms
                 " ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗     ██╔══██╗██║   ██║   ██║   \r\n" +
                 " ╚██████╗   ██║   ██████╔╝███████╗██║  ██║ ███╗██████╔╝╚██████╔╝   ██║   \r\n" +
                 "  ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚══╝╚═════╝  ╚═════╝    ╚═╝  \r\n" +
-                "              🔒  Cybersecurity Awareness Bot  |  Keeping You Safe Online 🛡️";
+                "           Cybersecurity Awareness Bot  |  Keeping You Safe Online ";
         }
 
 
@@ -203,7 +203,7 @@ namespace CybersecurityBotGUI.Forms
                 "Welcome to the Cybersecurity Awareness Bot!\n" +
                 "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" +
                 "I'm here to help you stay safe online.\n\n" +
-                "Before we begin — what's your name?");
+                "Before we start — what's your name?");
         }
 
 
@@ -240,12 +240,12 @@ namespace CybersecurityBotGUI.Forms
                 AppendBotMessage(
                     $"Nice to meet you, {_userMemory.Name}! 😊\n\n" +
                     "I can help you with topics like:\n" +
-                    "  🔑  Password safety & managers\n" +
-                    "  🎣  Phishing & scams\n" +
-                    "  🛡️  Malware & ransomware\n" +
-                    "  🔐  Encryption & 2FA\n" +
-                    "  📶  Public Wi-Fi & VPNs\n" +
-                    "  🕵️  Social engineering\n" +
+                    "    Password safety & managers\n" +
+                    "    Phishing & scams\n" +
+                    "    Malware & ransomware\n" +
+                    "    Encryption & 2FA\n" +
+                    "    Public Wi-Fi & VPNs\n" +
+                    "    Social engineering\n" +
                     "  ...and much more!\n\n" +
                     "Type 'help' for a full topic list, or just ask away!");
                 return;
@@ -354,9 +354,9 @@ namespace CybersecurityBotGUI.Forms
             _chatDisplay.SelectionStart = _chatDisplay.TextLength;
             _chatDisplay.SelectionLength = 0;
 
-            // Bot label
+            
             _chatDisplay.SelectionColor = AccentCyan;
-            _chatDisplay.AppendText($"\n  [{DateTime.Now:HH:mm}]  🤖 CyberBot\n");
+            _chatDisplay.AppendText($"\n  [{DateTime.Now:HH:mm}]   CyberBot\n");
 
             // Message
             _chatDisplay.SelectionColor = TextWhite;
