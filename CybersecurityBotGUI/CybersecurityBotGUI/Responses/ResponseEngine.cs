@@ -91,19 +91,19 @@ namespace CybersecurityBotGUI.Responses
                 Responses = new[]
                 {
                     "Here are the topics I can help you with, {name}:\n\n" +
-                    "  🔑  Passwords & password managers\n" +
-                    "  🎣  Phishing, smishing & vishing\n" +
-                    "  🦠  Malware, viruses & ransomware\n" +
-                    "  🔐  Two-factor authentication (2FA)\n" +
-                    "  🔒  Encryption\n" +
-                    "  📶  Public Wi-Fi & VPNs\n" +
-                    "  🧱  Firewalls\n" +
-                    "  🕵️  Social engineering\n" +
-                    "  🌐  Safe browsing & online shopping\n" +
-                    "  🧬  Data breaches & identity theft\n" +
-                    "  ☁️  Cloud security\n" +
-                    "  🔄  Software updates & backups\n" +
-                    "  👶  Children's online safety\n\n" +
+                    "    Passwords & password managers\n" +
+                    "    Phishing, smishing & vishing\n" +
+                    "    Malware, viruses & ransomware\n" +
+                    "    Two-factor authentication (2FA)\n" +
+                    "    Encryption\n" +
+                    "    Public Wi-Fi & VPNs\n" +
+                    "    Firewalls\n" +
+                    "    Social engineering\n" +
+                    "    Safe browsing & online shopping\n" +
+                    "    Data breaches & identity theft\n" +
+                    "    Cloud security\n" +
+                    "    Software updates & backups\n" +
+                    "    Children's online safety\n\n" +
                     "Just type any of these topics and I'll help!"
                 },
                 FollowUp = "Feel free to ask about any specific topic, {name}, " +
@@ -611,7 +611,7 @@ namespace CybersecurityBotGUI.Responses
                 Keywords  = new[] { "thank", "thanks", "bye", "goodbye", "see you", "cheers", "appreciate", "exit" },
                 Responses = new[]
                 {
-                    "You're very welcome, {name}! Stay safe out there. 🔒 Come back anytime!",
+                    "You're very welcome, {name}! Stay safe out there.  Come back anytime!",
                     "Happy to help, {name}! Remember — good habits are the best security tool. Take care! 🛡️",
                     "Goodbye, {name}! Stay vigilant online. You're now better equipped than most people! 💪"
                 },
