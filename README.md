@@ -9,14 +9,14 @@ practical tips and advice. It remembers your name, picks up on your
 mood, and keeps the conversation feeling natural and engaging.
 
 ## Features
-- 🎙️ Plays a voice greeting when the app launches
-- 🖼️ ASCII art logo displayed in the header
-- 💬 Covers 20+ topics including passwords, phishing, malware,
+-  Plays a voice greeting when the app launches
+-  ASCII art logo displayed in the header
+-  Covers 20+ topics including passwords, phishing, malware,
      ransomware, 2FA, encryption, VPNs, and more
-- 🧠 Remembers your name and what topics interest you
-- 😟 Detects your mood and responds with empathy
-- 🔁 Type "tell me more" to expand on any topic
-- ✅ Handles unknown inputs gracefully
+-  Remembers your name and what topics interest you
+-  Detects your mood and responds with empathy
+-  Type "tell me more" to expand on any topic
+-  Handles unknown inputs gracefully
 
 ## How to Run
 1. Clone the repo
