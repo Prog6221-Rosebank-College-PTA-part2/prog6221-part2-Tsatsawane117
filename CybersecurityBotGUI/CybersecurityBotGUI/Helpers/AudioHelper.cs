@@ -16,7 +16,7 @@
             }
             catch
             {
-                // Non-fatal — continue without audio
+         
             }
         }
 
